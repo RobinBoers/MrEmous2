@@ -5,6 +5,8 @@ module.exports = {
 
         if (message.channel.nsfw) {
 
+            const { prefix, token, nswfAllowed, coinEmoji, AdminRole, redditToken } = require('../config.json');
+
             var snoowrap = require('snoowrap');
             const r = new snoowrap({
                 userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0',
