@@ -3,6 +3,8 @@ module.exports = {
     description: "nsfw content",
     execute(message, args){
         if (message.channel.nsfw) {
+
+            const { prefix, token, nswfAllowed, coinEmoji, AdminRole, redditToken } = require('../config.json');
         
             var snoowrap = require('snoowrap');
             const r = new snoowrap({
