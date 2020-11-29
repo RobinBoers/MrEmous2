@@ -1,0 +1,34 @@
+{
+  "name": "mremous2",
+  "version": "1.0.0",
+  "description": "Official Kotersquad discordbot",
+  "main": "main.js",
+  "scripts": {
+    "test": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinBoers/MrEmous2.git"
+  },
+  "keywords": [
+    "Koters",
+    "bot",
+    "discord",
+    "discordbot",
+    "Kotersquad",
+    "Emous",
+    "MrEmous",
+    "mr"
+  ],
+  "author": "Robin Boers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinBoers/MrEmous2/issues"
+  },
+  "homepage": "https://github.com/RobinBoers/MrEmous2#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "sequelize": "^6.3.5",
+    "snoowrap": "^1.21.0"
+  }
+}
