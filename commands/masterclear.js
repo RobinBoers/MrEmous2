@@ -5,7 +5,7 @@ module.exports = {
     description: "clears bot channel",
     execute(message, args){
 
-        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('./config.json');
+        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('../config.json');
 
         if(!message.guild === null) {
             if(message.member.roles.cache.some(role => role.name === AdminRole)){

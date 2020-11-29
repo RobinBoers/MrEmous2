@@ -5,12 +5,10 @@ module.exports = {
     description: "clears bot channel",
     execute(message, args){
 
-        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('./config.json');
+        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('../config.json');
 
         if(!message.guild === null) {
             if(message.member.roles.cache.some(role => role.name === AdminRole)){
-
-                const { prefix, token, nswfAllowed, coinEmoji } = require('./config.json');
 
                 message.channel.messages.fetch().then(async messages => {
                     console.log(`${messages.size} messages.`);

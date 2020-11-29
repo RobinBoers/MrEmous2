@@ -7,7 +7,7 @@ module.exports = {
         const Client = new Discord.Client();
         const fs = require('fs');
 
-        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('./config.json');
+        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('../config.json');
 
         coin = Client.emojis.cache.find(emoji => emoji.name === coinEmoji);
 

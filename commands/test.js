@@ -3,7 +3,7 @@ module.exports = {
     description: "testing",
     execute(message, args){
 
-        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('./config.json');
+        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('../config.json');
 
         // var msg = message.channel.messages.fetch("759423335166640128");
         // console.log(msg);
