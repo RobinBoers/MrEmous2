@@ -9,7 +9,7 @@ module.exports = {
             const r = new snoowrap({
                 userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0',
                 clientId: 'wxF4146B4858Sg',
-                clientSecret: 'b4J2r0J96F6vJ4QQiWGr36AxWaH3HQ',
+                clientSecret: redditToken,
                 username: 'Sea-Box5852',
                 password: 'Sea-Box5852'
             });
