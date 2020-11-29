@@ -7,7 +7,9 @@ module.exports = {
         const Client = new Discord.Client();
         const fs = require('fs');
 
-        coin = Client.emojis.cache.find(emoji => emoji.name === "mrcoin");
+        const { prefix, token, nswfAllowed, coinEmoji, AdminRole } = require('./config.json');
+
+        coin = Client.emojis.cache.find(emoji => emoji.name === coinEmoji);
 
         var helpEmbed = new Discord.MessageEmbed()
 	    .setColor('#d6320d')
@@ -100,7 +102,7 @@ module.exports = {
         }
 
         
-        Client.login('Nzc0OTc0ODQxMjk5OTI3MTAx.X6flkA.64P1TBnQ-qgIeARIpGGGouYAHjU');
+        Client.login(token);
         
     }
 
