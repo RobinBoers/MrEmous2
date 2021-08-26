@@ -50,4 +50,4 @@ These are:
 <br>
 It's basicly a Dankmemer clone.
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot2.png)
